@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'dincond';
+    src: url(../public/dincond.otf);
+}
+
+h1{
+    font-size: 1000px;
+}
+
+a{
+    font-family: dincond;
+    font-size: 30px;
+}
+
+.swiper-container {
+    z-index: 1;
+    height: 100vh;
+}
+
+.swiper-scrollbar {
+    display: none;
+}
+
+.swiper-pagination{
+    display: none;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
